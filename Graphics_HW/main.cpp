@@ -78,8 +78,6 @@ void SetColor(ColorFlag c)
 	}
 }
 
-// Draw a circle centered at the point (x,y) with radius "rad".
-// The circle will be drawn using a polygon with N vertices.
 void DrawSquare(int x, int y, int temp)
 {
 	glBegin(GL_QUADS);
